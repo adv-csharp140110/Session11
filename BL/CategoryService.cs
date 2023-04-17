@@ -18,7 +18,7 @@ namespace BL
                 //...picture tabdil be byte
             };
             var repo = new GenericRepo();
-            respo.Create(category);
+            repo.Create(category);
         }
     }
 }

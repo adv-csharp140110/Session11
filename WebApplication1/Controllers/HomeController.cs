@@ -1,20 +1,16 @@
-﻿using BL;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using ui.web.Models;
-using ViewModel;
+using WebApplication1.Models;
 
-namespace ui.web.Controllers
+namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly ICategoryService categoryService;
 
-        public HomeController(ILogger<HomeController> logger, ICategoryService categoryService)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            this.categoryService = categoryService;
         }
 
         public IActionResult Index()
@@ -24,12 +20,6 @@ namespace ui.web.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
-        }
-
-        public IActionResult AddCategory(CategoryInputModel vm)
-        {          
-            categoryService.Add(vm);
             return View();
         }
 

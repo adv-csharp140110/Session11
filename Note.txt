@@ -12,8 +12,9 @@
 	
 Architecture
 	Monolithic - یکپارچه
-	Modular
 		N-Layer (3-layer)
+	Modular
+		
 		N-Tier
 
 		Models
@@ -26,9 +27,10 @@ Architecture
 			AutoMapper
 			
 
+		ERP
 		Service orianted architecture - SOA 
 		Microservice
-		Serverlesss
+		Serverless
 
 Reporting
 
