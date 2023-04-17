@@ -1,4 +1,4 @@
-Dependency Injection - DI
+﻿Dependency Injection - DI
 	Inversion of Control - IoC
 
 	1. Baraye service morde nazasr, Interface neveshitm
@@ -11,6 +11,25 @@ Dependency Injection - DI
 
 	
 Architecture
+	Monolithic - یکپارچه
+	Modular
+		N-Layer (3-layer)
+		N-Tier
+
+		Models
+			Domain Models - POCO - Entity
+				Class C# map be Table Database
+			Data Transfer Object - DTO
+			View Model
+			Input Model
+
+			AutoMapper
+			
+
+		Service orianted architecture - SOA 
+		Microservice
+		Serverlesss
+
 Reporting
 
 
