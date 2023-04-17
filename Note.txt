@@ -1,0 +1,17 @@
+Dependency Injection - DI
+	Inversion of Control - IoC
+
+	1. Baraye service morde nazasr, Interface neveshitm
+	2. Interface ro to service piyade sazi karim
+	3. server register kardim
+	4. constractor add kardim
+
+
+	Low Coupling - High Cohesion
+
+	
+Architecture
+Reporting
+
+
+_Source Control
